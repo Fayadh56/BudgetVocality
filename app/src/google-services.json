@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "629248735947",
+    "firebase_url": "https://hackwestern-c86fa.firebaseio.com",
+    "project_id": "hackwestern-c86fa",
+    "storage_bucket": "hackwestern-c86fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629248735947:android:0c3a36e5789ca603",
+        "android_client_info": {
+          "package_name": "com.example.fayadh.androidfinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629248735947-vh9sfnis5iu1lagjdvmdrtlu8blhej2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR634Nb80bSQR0uwG73FV_LGSrFCRNE0g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
