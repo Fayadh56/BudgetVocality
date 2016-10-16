@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    Double totalBalance = 0.0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,10 +18,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void getBalance(View v) {
 
-        EditText balance = (EditText) findViewById(R.id.edit);
-        String stringOf = balance.getText().toString();
+        Double currentBalance = 0.0;
+
+        try {
+            EditText balance = (EditText) findViewById(R.id.edit);
+            String stringOf = balance.getText().toString();
+            currentBalance = Double.parseDouble(stringOf);
+        } catch (NumberFormatException e) {
+        }
+
+        totalBalance += currentBalance;
 
         TextView myTextView = (TextView) findViewById(R.id.textBalance);
-        myTextView.setText("$" + stringOf);
+        myTextView.setText("$ " + totalBalance);
     }
 }
