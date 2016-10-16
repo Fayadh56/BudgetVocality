@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:hint="Deposit or Withdraw"
-        android:inputType="numberDecimal" />
+        android:inputType="numberSigned" />
 
     <Button
         android:id="@+id/updatePrice"
@@ -48,22 +48,14 @@
         android:text="Update Price" />
 
     <Button
-        android:id="@+id/savePrice"
+        android:id="@+id/resetPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
         android:background="#B39DDB"
-        android:onClick="saveData"
+        android:onClick="resetBalance"
         android:padding="5dp"
-        android:text="saveData" />
+        android:text="Reset" />
 
-    <Button
-        android:id="@+id/loadPrice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:background="#B39DDB"
-        android:onClick="loadData"
-        android:padding="5dp"
-        android:text="Load Data" />
 </LinearLayout>
