@@ -6,6 +6,10 @@
 voice recognition, and speech AI </p>
 
 <img src="http://i.imgur.com/IXJsEtg.png" alt="Budget Vocality" height="460" width="295">
+
+<h2>Some Questions to Ask our AI</h2>
+<p>What was hack western like? Can you give me some budgeting tips? How much money do I have left? Can I buy coffee with the money I have? What did Steve Jobs once say? I'm Tired! </p>
+
 <h3> What the future holds </h3>
 <p> We believe this application has great potential, and would love to have others work on it alongside us, an easy to use budgeting application is what everyone needs, in this day and time. We plan on making the application, have access to a database of all your past purchases, and then utilizing an algorithim determine spending patters and habits, to then streamline the Artificial Intelligence, along with Machine Learning to help you save even more, in the simplest way possible! </p>
 
