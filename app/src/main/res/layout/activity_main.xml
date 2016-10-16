@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Vocal Finance"
+        android:textColor="#311B92"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -33,13 +34,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:hint="Deposit or Withdraw" />
+        android:hint="Deposit or Withdraw"
+        android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/updatePrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
+        android:background="#B39DDB"
         android:onClick="getBalance"
+        android:padding="5dp"
         android:text="Update Price" />
 </LinearLayout>
