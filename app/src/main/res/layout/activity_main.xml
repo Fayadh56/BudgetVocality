@@ -46,4 +46,24 @@
         android:onClick="getBalance"
         android:padding="5dp"
         android:text="Update Price" />
+
+    <Button
+        android:id="@+id/savePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="#B39DDB"
+        android:onClick="saveData"
+        android:padding="5dp"
+        android:text="saveData" />
+
+    <Button
+        android:id="@+id/loadPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="#B39DDB"
+        android:onClick="loadData"
+        android:padding="5dp"
+        android:text="Load Data" />
 </LinearLayout>
